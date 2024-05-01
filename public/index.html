@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Management System</h1>
+        <div id="options">
+            <button id="viewBtn">View Contacts</button>
+            <button id="editBtn">Add Contacts</button>
+        </div>
+        <div id="contactList" style="display: none;">
+            <h2>Contact List</h2>
+            <ul id="contacts">
+                <!-- Contacts will be displayed here -->
+            </ul>
+        </div>
+        <div id="editOptions" style="display: none;">
+            <h2>Add Contacts</h2>
+            <div id="addContact">
+                <input type="text" id="name" placeholder="Name">
+                <input type="tel" id="phone" placeholder="Phone Number">
+                <button id="addBtn">Add Contact</button>
+            </div>
+            <!--button id="deleteBtn">Delete Contact</button-->
+            <!--button id="modifyBtn">Modify Contact</button-->
+        </div>
+    </div>
+
+    <h1><div id="message" class="message"></div></h1>
+
+    <script src="script.js"></script>
+</body>
+</html>
